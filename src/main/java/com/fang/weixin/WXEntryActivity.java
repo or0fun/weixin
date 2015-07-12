@@ -29,9 +29,11 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
 	@Override
 	protected void onNewIntent(Intent intent) {
 		super.onNewIntent(intent);
-		
-		setIntent(intent);
-        api.handleIntent(intent, this);
+
+        if (null != intent) {
+            setIntent(intent);
+            api.handleIntent(intent, this);
+        }
 	}
 
 	// 微信发送请求到第三方应用时，会回调到该方法
