@@ -3,4 +3,11 @@
     <dimen name="titleHeight">40dp</dimen>
     <dimen name="itemHeight">120dp</dimen>
     <dimen name="itemWidth">80dp</dimen>
+
+    <dimen name="margin">10dp</dimen>
+
+    <!-- 横向隔线 -->
+    <dimen name="hSplitHeight">1.0dp</dimen>
+    <dimen name="hSplitMarginTB">1.0dp</dimen>
+    <dimen name="hSplitMarginLR">10.0dp</dimen>
 </resources>

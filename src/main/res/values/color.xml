@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 水印色 -->
+    <color name="hint">#ff7f7f7f</color>
+</resources>

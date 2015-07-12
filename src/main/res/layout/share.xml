@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/margin"
     android:paddingRight="@dimen/margin"
-    android:background="@color/white">
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="@dimen/titleHeight"
         android:gravity="center_vertical"
-        android:textColor="@color/black"
+        android:textColor="@android:color/black"
         android:text="@string/share_to" />
     
     <View
@@ -39,7 +39,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
+                android:textColor="@android:color/black"
                 android:text="@string/weixin" />
         </LinearLayout>
 
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
+                android:textColor="@android:color/black"
                 android:text="@string/timeline" />
         </LinearLayout>
 
@@ -81,7 +81,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
+                android:textColor="@android:color/black"
                 android:text="@string/copy_link" />
         </LinearLayout>
 
@@ -102,7 +102,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
+                android:textColor="@android:color/black"
                 android:text="@string/qrcode" />
         </LinearLayout>
     </LinearLayout>
